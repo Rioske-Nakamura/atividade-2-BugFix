@@ -291,6 +291,6 @@ const products = [
   // Adiciona um evento de escuta ao campo de pesquisa
   document.getElementById('search-input').addEventListener('input', (event) => {
     const searchTerm = event.target.value;
-    filterProducts(searchTerm);
+    filterProducts(searcherm);
   });
   
