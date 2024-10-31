@@ -4,7 +4,7 @@ const products = [
         "id": 1,
         "name": "Fone de Ouvido Bluetooth",
         "description": "Fone de ouvido sem fio com tecnologia Bluetooth, som de alta qualidade e bateria de longa duração."
-      
+      },
       {
         "id": 2,
         "name": "Smartphone X10",
@@ -277,7 +277,7 @@ const products = [
   }
   
   // Função de filtro de pesquisa
-  fucntion filterProducts(searchTerm) {
+  function filterProducts(searchTerm) {
     const filteredProducts = products.filter(product => 
       product.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
       product.description.toLowerCase().includes(searchTerm.toLowerCase())
@@ -291,6 +291,6 @@ const products = [
   // Adiciona um evento de escuta ao campo de pesquisa
   document.getElementById('search-input').addEventListener('input', (event) => {
     const searchTerm = event.target.value;
-    filterProducts(searcherm);
+    filterProducts(searchTerm);
   });
   
