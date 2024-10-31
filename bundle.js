@@ -4,7 +4,7 @@ const products = [
         "id": 1,
         "name": "Fone de Ouvido Bluetooth",
         "description": "Fone de ouvido sem fio com tecnologia Bluetooth, som de alta qualidade e bateria de longa duração."
-      },
+        },
       {
         "id": 2,
         "name": "Smartphone X10",
